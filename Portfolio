@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>PORTFOLIO</title>
+</head>
+<body>
+  <header>
+    
+      <h1>Online Portfolio</h1>   
+      <nav>
+      <a href="#Home">HOME</a>
+      <a href="#about">ABOUT ME</a>
+      <a href="#skills">SKILLS</a>
+      <a href="SERVICES">SERVICES</a>
+      <a href="EXPERIENCE">EXPERIENCE</a>
+      <a href="WORKS">WORKS</a>
+      <a href="CONTACT US">CONTACT US</a>
+      </nav>
+  </header>
+  
+  
+  <section id="about">
+    <h1>SRIVARDHAN REDDY</h1>
+    <div class="para">
+    
+      <p>
+        <br>Hi,I am a Professional Developer and BTech 2nd Year IT Student.</br> 
+        <br>I Specialize in Python,Java,Full-stack development.</br>    
+        <br>I have built 5+ projects.</br>       
+        </p>
+      <img src="https://flagsapi.com/IN/flat/64.png" alt="Image">
+    </div>
+  </section>
+  <main class="main">
+     <img src="https://flagsapi.com/IN/flat/64.png" alt="Image">
+<section id="skills-list">
+  <div class="skills">
+    <h3>Skills</h3>
+    <br>Python</br>
+    <br>Full-stack Development</br>
+    <br>Java</br>
+    <br>DSA</br>
+  </div>
+</section>
+  <section id="project-list">
+  <div class="project">
+    <h3>Projects</h3>
+    <br>Calculator</br>
+    <br>Portfolio</br>
+    <br>ChatBoot</br>
+    
+  </div>
+  </section>
+  </main>
+  <section id="Resume">
+    <button>Download Resume</button>
+  </section>
+  
+    
+  
+  <script src="java.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+*{
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+nav a{
+  margin: 0 0.8rem;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+
+body{
+  background-color: pink;;
+  
+}
+
+
+header{
+  color: white;
+  padding: 2rem;
+  height: 60px;
+  background-color: slategrey;
+  display: flex;
+  border: border-box;
+  
+}
+
+#about{
+  height: 300px;
+  background-color: silver;
+  
+}
+img{
+  height: 200px;
+  width: 400px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+p{
+  font-size: 20px;
+  min-height: 1rem;
+}
+.para{
+  display: flex;
+  padding: 1rem;
+  
+}
+h1{
+  font-family: Arial;
+  font-style: italic;
+}
+
+#skills-list{
+  text-align: center;
+  height: 200px;
+  display: flex;
+  padding: 1rem;
+}
+
+#project-list{
+  height: 170px;
+  text-align: center;
+  padding: 1rem;
+}
+#Resume{
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+button{
+  background-color: blueviolet;
+  color: white;
+  height: 50px;
+}
+.main{
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-evenly;
+}
